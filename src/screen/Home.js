@@ -8,11 +8,12 @@ export default class App extends React.Component {
         title: 'Anasayfa',
         headerStyle: {
           backgroundColor: 'lightblue',
+        
         },
         headerLeft: () => (
           <Button onPress = { ()=>{ navigation.openDrawer() } } title="Menu" ></Button>
         ),
-      };
+      };x 
     };
 
   
